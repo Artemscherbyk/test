@@ -2,8 +2,8 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Crud extends CI_Model{
-    public $table = 'users'; //name table
-    public $idkey = 'id';// name id
+    public $table = ''; //name table
+    public $idkey = '';// name id
 
     public function __construct(){
         parent::__construct();
